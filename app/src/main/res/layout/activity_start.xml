@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unknown.root.quiz.StartActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital Quiz"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"
+        />
+
+    <Button
+        android:id="@+id/all"
+        android:layout_width="@dimen/startBtn_width"
+        android:layout_height="@dimen/startBtn_height"
+        android:text="ALL"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="100dp"
+        android:onClick="startQuiz"
+        />
+
+    <Button
+        android:id="@+id/asia"
+        android:layout_width="@dimen/startBtn_width"
+        android:layout_height="@dimen/startBtn_height"
+        android:text="Asia"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:onClick="startQuiz"
+        />
+
+    <Button
+        android:id="@+id/america"
+        android:layout_width="@dimen/startBtn_width"
+        android:layout_height="@dimen/startBtn_height"
+        android:text="America"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:onClick="startQuiz"
+        />
+
+    <Button
+        android:id="@+id/europe"
+        android:layout_width="@dimen/startBtn_width"
+        android:layout_height="@dimen/startBtn_height"
+        android:text="Europe"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:onClick="startQuiz"
+        />
+
+<!--
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="@dimen/startBtn_width"
+        android:layout_height="@dimen/startBtn_height"
+        app:srcCompat="@android:drawable/btn_star"
+        android:textColor="@color/white"
+        android:background="#f44c4c"
+        android:layout_marginTop="10dp" />
+-->
+
+</LinearLayout>
